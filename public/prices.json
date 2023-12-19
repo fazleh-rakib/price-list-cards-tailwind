@@ -1,0 +1,39 @@
+[
+    {
+      "id": 1,
+      "name": "Day Pass",
+      "price": 10.99,
+      "features": ["1-day access", "No commitment"]
+    },
+    {
+      "id": 2,
+      "name": "Week Pass",
+      "price": 49.99,
+      "features": ["7-day access", "No commitment"]
+    },
+    {
+      "id": 3,
+      "name": "Month-to-Month Membership",
+      "price": 79.99,
+      "features": ["Month-to-month", "Access to all facilities"]
+    },
+    {
+      "id": 4,
+      "name": "3-Month Membership",
+      "price": 199.99,
+      "features": ["3-month membership", "Access to all facilities"]
+    },
+    {
+      "id": 5,
+      "name": "Personal Training Package",
+      "price": 149.99,
+      "features": ["3 one-hour sessions", "Custom workout plan"]
+    },
+    {
+      "id": 6,
+      "name": "Group Fitness Class Membership",
+      "price": 69.99,
+      "features": ["Unlimited group fitness classes", "Access to gym facilities"]
+    }
+  ]
+  

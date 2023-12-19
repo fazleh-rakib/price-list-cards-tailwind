@@ -12,7 +12,7 @@ const NAvbar = () => {
     { id: 5, name: "Blog", path: "/blog" },
   ];
   return (
-    <nav className="bg-indigo-800">
+    <nav className="bg-indigo-800 text-white">
       <div onClick={() => setOpen(!open)} className="md:hidden">
         <span>
           {open === true ? (
@@ -22,7 +22,7 @@ const NAvbar = () => {
           )}
         </span>
       </div>
-      <ul className={`md:flex absolute bg-indigo-800 p-8 md:static ${open ? "top-6 ": "-top-96" }`}>
+      <ul className={`md:flex absolute bg-indigo-800 pl-8 py-2 md:static  ${open ? "top-6 ": "-top-96" }`}>
         {routeList.map((route) => (
           <Link route={route} key={route.id} />
         ))}
